@@ -1,0 +1,26 @@
+{
+  "context_captured": {
+    "execution_scope": "READ_ONLY",
+    "source_file": "C:\\Users\\LENOVO Pro\\Desktop\\tips\\sample_data\\customers.csv"
+  },
+  "database": "local_csv",
+  "ddl_authorized": false,
+  "error_message": "Source dataframe is missing required columns: email_address, first_name, last_name, address, city, county_name, state, website_source, phone_number, gender, dob, registration_date, valid, extra, email_id, ethnicity, ownrent, domain, main_interest, sub_interest, latitude, longitude, uploaded, country, websource_id, interest_ids, DNC, source, first_name_norm, last_name_norm, zip_norm",
+  "error_type": "ValueError",
+  "evidence_files": {
+    "flag_preview": ""
+  },
+  "failed_check": "UNEXPECTED_ERROR",
+  "generated_utc": "2026-08-11T15:47:02.142723+00:00",
+  "production_changed": false,
+  "raw_values_printed": false,
+  "run_id": "d652066b-3a4f-4eff-9813-cb8092ffa877",
+  "shas_captured": {
+    "ddl_before": "a164d55509ea9eaa3cb71921b613a81ef4ecd9ef2ac9c76c996918f43bf82841"
+  },
+  "source_write_performed": false,
+  "status": "FAILURE",
+  "step": "END_TO_END_AUDIT",
+  "table": "customers",
+  "view_target": "customers_flag_preview"
+}

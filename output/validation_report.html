@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Validation Report</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:40px;
+background:#f8f9fa;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+border:1px solid #ccc;
+padding:10px;
+text-align:left;
+}
+
+th{
+background:#343a40;
+color:white;
+}
+
+h1{
+color:#333;
+}
+
+.summary{
+margin-bottom:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Data Quality Validation Report</h1>
+
+<div class="summary">
+
+<p><strong>Successful Rules:</strong> 5</p>
+
+<p><strong>Failed Rules:</strong> 5</p>
+
+<p><strong>Rows Flagged:</strong> 36462</p>
+
+<p><strong>Total Duration:</strong> 0.220 sec</p>
+
+</div>
+
+<table>
+
+<tr>
+
+<th>Rule</th>
+
+<th>Status</th>
+
+<th>Errors</th>
+
+<th>Warnings</th>
+
+<th>Rows Flagged</th>
+
+</tr>
+
+
+                <tr>
+                    <td>date_validation</td>
+                    <td style="color:#dc3545;font-weight:bold;">
+                        FAIL
+                    </td>
+                    <td>3931</td>
+                    <td>0</td>
+                    <td>3931</td>
+                </tr>
+                
+                <tr>
+                    <td>duplicate_validation</td>
+                    <td style="color:#28a745;font-weight:bold;">
+                        PASS
+                    </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>email_validation</td>
+                    <td style="color:#dc3545;font-weight:bold;">
+                        FAIL
+                    </td>
+                    <td>6703</td>
+                    <td>0</td>
+                    <td>6703</td>
+                </tr>
+                
+                <tr>
+                    <td>invariant_validation</td>
+                    <td style="color:#28a745;font-weight:bold;">
+                        PASS
+                    </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>name_validation</td>
+                    <td style="color:#28a745;font-weight:bold;">
+                        PASS
+                    </td>
+                    <td>0</td>
+                    <td>2028</td>
+                    <td>2028</td>
+                </tr>
+                
+                <tr>
+                    <td>phone_validation</td>
+                    <td style="color:#dc3545;font-weight:bold;">
+                        FAIL
+                    </td>
+                    <td>7942</td>
+                    <td>0</td>
+                    <td>7942</td>
+                </tr>
+                
+                <tr>
+                    <td>pii_validation</td>
+                    <td style="color:#28a745;font-weight:bold;">
+                        PASS
+                    </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>5355</td>
+                </tr>
+                
+                <tr>
+                    <td>schema_validation</td>
+                    <td style="color:#28a745;font-weight:bold;">
+                        PASS
+                    </td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>website_validation</td>
+                    <td style="color:#dc3545;font-weight:bold;">
+                        FAIL
+                    </td>
+                    <td>8578</td>
+                    <td>0</td>
+                    <td>8578</td>
+                </tr>
+                
+                <tr>
+                    <td>zip_validation</td>
+                    <td style="color:#dc3545;font-weight:bold;">
+                        FAIL
+                    </td>
+                    <td>1925</td>
+                    <td>0</td>
+                    <td>1925</td>
+                </tr>
+                
+
+</table>
+
+</body>
+
+</html>

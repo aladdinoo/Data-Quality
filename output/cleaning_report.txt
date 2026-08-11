@@ -1,0 +1,12 @@
+Data Cleaning Report
+============================================================
+
+Rows Processed : 40000
+Rows Modified  : 17457
+Rows Flagged   : 4739
+
+Cleaner	Modified	Flagged
+email_cleaner	3309	3316
+name_cleaner	987	0
+phone_cleaner	6000	0
+website_cleaner	7161	1423
